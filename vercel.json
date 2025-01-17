@@ -11,8 +11,5 @@
       "src": "/(.*)",
       "dest": "/dist/index.js"
     }
-  ],
-  "scripts": {
-    "build": "tsc -b"
-  }
+  ]
 }
