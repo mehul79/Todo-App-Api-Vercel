@@ -1,9 +1,9 @@
 import express from "express"
-import { configDotenv } from "dotenv"
+import cors from "cors";
 import { get_todos } from "./logic.js"
 const app = express()
 app.use(express.json())
-configDotenv()
+app.use(cors())
 
 app.get("/", (req,res)=>{
   res.redirect("/todos")

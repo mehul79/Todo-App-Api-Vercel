@@ -14,10 +14,12 @@
   "dependencies": {
     "@types/express": "^5.0.0",
     "@vercel/node": "^1.15.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
-    "devDependencies": {
-      "typescript": "^5.0.0"
-    }
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.0.0"
+  }
 }

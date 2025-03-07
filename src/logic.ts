@@ -33,7 +33,7 @@ export function get_todos(){
       description: description.trim()
     });
   }
-  todos.push(`number_of_todos: ${number_of_todos}`)
+  // todos.push(`number_of_todos: ${number_of_todos}`)
   
   return todos
 }
